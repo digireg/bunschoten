@@ -28,7 +28,7 @@ export default function AchtergrondLaag({
         id: layer.id,
         name: layer.title,
         // Optional: add thumbnails; fallback if none
-        thumbnail: layer.thumbnail || `/demo-kenia/thumbnails/${layer.id}.png`,
+        thumbnail: layer.thumbnail || `/bunschoten/thumbnails/${layer.id}.png`,
       }))
   );
 

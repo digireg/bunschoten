@@ -31,22 +31,22 @@ export const backgroundLayersConfig = {
       tileGridFunc: createPdokTileGrid28992,
     },
 
-    bunschoten: {
-      id: "bunschoten",
-      title: "Digireg Luchtfoto Bunschoten",
-      type: "WMS",
-      url: "https://services.digireg.com/mapserver/buns?",
-      params: {
-        LAYERS: "F25002_Bunschoten_50",
-        FORMAT: "image/png",
-        TILED: true,
-      },
-      serverType: "mapserver",
-      version: "7.6.4",
-      matrixSet: "EPSG:28992",
-      attribution: "© Digireg Luchtfoto Bunschoten",
-      tileGridFunc: createPdokTileGrid28992,
-    },
+    // bunschoten: {
+    //   id: "bunschoten",
+    //   title: "Digireg Luchtfoto Bunschoten",
+    //   type: "WMS",
+    //   url: "https://services.digireg.com/mapserver/buns?",
+    //   params: {
+    //     LAYERS: "F25002_Bunschoten_50",
+    //     FORMAT: "image/png",
+    //     TILED: true,
+    //   },
+    //   serverType: "mapserver",
+    //   version: "7.6.4",
+    //   matrixSet: "EPSG:28992",
+    //   attribution: "© Digireg Luchtfoto Bunschoten",
+    //   tileGridFunc: createPdokTileGrid28992,
+    // },
 
     /* Same as PDOK Luchtfoto */
     // NL_Actueel_ortho25: {
