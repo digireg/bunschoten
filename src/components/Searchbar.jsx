@@ -117,7 +117,7 @@ export default function SearchBar({ onSearchResult }) {
           type="search"
           value={query}
           onChange={handleChange}
-          placeholder="Search location"
+          placeholder="Locatie opzoeken"
           autoComplete="off"
           onKeyDown={handleKeyDown}
           ref={inputRef}

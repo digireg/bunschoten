@@ -25,24 +25,24 @@ export default function Measurement({ isOpen, setActivePanel, onSelectTool }) {
   const MeasurementTools = [
     {
       id: "lijnMeten",
-      name: "Measure line",
+      name: "Lijn meten",
       Icon: TiImageOutline,
     },
     { id: "polygonMeten", name: "Measure polygon", Icon: TbPolygon },
 
     {
       id: "stopMeting",
-      name: "Stop measurement",
+      name: "Meting stoppen",
       Icon: FaStopCircle,
     },
     {
       id: "wisMeting",
-      name: "Clear measurement",
+      name: "Meting wissen",
       Icon: AiOutlineClear,
     },
     {
       id: "stopEnWisMeting",
-      name: "Stop and clear measurement",
+      name: "Metingen stoppen en wissen",
       Icon: MdDelete,
     },
   ];
@@ -72,7 +72,7 @@ export default function Measurement({ isOpen, setActivePanel, onSelectTool }) {
       <MeasurementPanel ref={panelRef} $isOpen={isOpen}>
         <PanelHeader>
           <FaRuler size={20} />
-          <h1>Measuring tools</h1>
+          <h1>Meetinstrumenten</h1>
         </PanelHeader>
 
         <PreviewGrid>

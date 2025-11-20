@@ -51,28 +51,28 @@ export default function OverlayMenu({
             icon={<FiMap />}
             onClick={() => handleOpenPanel("achtergrond")}
           >
-            Background layers
+            Achtergrondlagen
           </NavButton>
 
           <NavButton
             icon={<FiLayers />}
             onClick={() => handleOpenPanel("lagen")}
           >
-            Data layers
+            Datalagen
           </NavButton>
 
           <NavButton
             icon={<FiEye />}
             onClick={() => handleOpenPanel("transparantie")}
           >
-            Layer Opacity
+            Laagopaciteit
           </NavButton>
 
           <NavButton
             icon={<FaRuler />}
             onClick={() => handleOpenPanel("metingen")}
           >
-            Measuring tools
+            Meetinstrumenten
           </NavButton>
 
           {/* <NavButton

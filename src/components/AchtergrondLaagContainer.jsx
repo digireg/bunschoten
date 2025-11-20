@@ -54,7 +54,7 @@ export default function AchtergrondLaag({
       <AchtergrondLaagPanel ref={panelRef} $isOpen={isOpen}>
         <PanelHeader>
           <FiMap size={20} />
-          <h1>Background layers</h1>
+          <h1>Achtergrondlagen</h1>
         </PanelHeader>
 
         <PreviewGrid>

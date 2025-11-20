@@ -486,20 +486,20 @@ export default function DataLaagSelect({
           <TopRow>
             <TitleGroup>
               <FiLayers size={20} />
-              <h1>Data Layers</h1>
+              <h1>Datalagen</h1>
             </TitleGroup>
             <SwitchGroup>
               <Switch
                 checked={showOnlyActive}
                 onChange={() => setShowOnlyActive(!showOnlyActive)}
               />
-              <span>Show active only</span>
+              <span>Alleen actieve lagen weergeven</span>
             </SwitchGroup>
           </TopRow>
 
           <TextInput
             type="text"
-            placeholder="Filter layers..."
+            placeholder="Lagen filteren..."
             value={filterQuery}
             onChange={(e) => setFilterQuery(e.target.value)}
           />
@@ -524,7 +524,7 @@ export default function DataLaagSelect({
               </Accordion>
             ))
           ) : (
-            <NoResults>No results found</NoResults>
+            <NoResults>Geen resultaten gevonden</NoResults>
           )}
         </Content>
         <BottomSpacer />

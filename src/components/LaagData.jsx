@@ -630,7 +630,7 @@ export default function LaagData({
             {/** */}
           </>
         ) : (
-          <p>Select an object on the map</p>
+          <p>Selecteer een object op de kaart</p>
         )}
       </DataPanel>
     </LaagDataContainer>

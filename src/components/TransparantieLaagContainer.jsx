@@ -49,12 +49,12 @@ export default function TransparantieLaagSelect({
         <Header>
           <TitleGroup>
             <FiEye size={20} />
-            <h1>Layer opacity</h1>
+            <h1>Laagopaciteit</h1>
           </TitleGroup>
           <TextInput
             id="filterTransparatieLagen"
             type="text"
-            placeholder="Filter layers..."
+            placeholder="Lagen filteren..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -81,7 +81,7 @@ export default function TransparantieLaagSelect({
               );
             })
           ) : (
-            <NoResults>No layers found.</NoResults>
+            <NoResults>Geen lagen gevonden.</NoResults>
           )}
         </Content>
       </TransparantieLaagPanel>

@@ -29,7 +29,7 @@ export default function Legend({ activeLayers = [] }) {
         aria-expanded={isOpen}
         aria-controls="legend-panel"
       >
-        Legend ({totalCount})
+        Legende ({totalCount})
       </MapButton>
 
       <LegendaPanel
@@ -91,7 +91,7 @@ export default function Legend({ activeLayers = [] }) {
         ) : (
           <div>
             <p>
-              <em>No legend available</em>
+              <em>Geen legende beschikbaar</em>
             </p>
           </div>
         )}
