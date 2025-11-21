@@ -202,4 +202,16 @@ export const DATASET_CONFIG = {
   //   children: [],
   //   projectionPriority: ["EPSG:3857", "EPSG:4326"],
   // },
+
+  Bunschoten_lufo: {
+    id: "Bunschoten_lufo",
+    title: "Luchtfoto",
+    type: "wms",
+    url: "https://services.digireg.com/bunschoten/lufo?",
+    legendUrl: null,
+    featureInfo: true,
+    dependencies: [],
+    children: [],
+    projectionPriority: ["EPSG:28992"],
+  },
 };
